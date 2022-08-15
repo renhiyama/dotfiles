@@ -2,3 +2,4 @@
  echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/user/.zshrc
     eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 brew install thefuck
+echo "eval $(thefuck --alias)" >> /home/user/.zshrc
