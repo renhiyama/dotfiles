@@ -101,3 +101,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
 alias ls="ls -a --color"
+alias fuck-the-process-using-port='~/.extras/fucktheprocessusingport'
+alias curltime="~/.extras/curltime"

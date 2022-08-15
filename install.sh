@@ -36,3 +36,9 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 echo "Setting Up Bun"
 curl https://bun.sh/install | bash
+
+echo "Setting Up Epik Commands!"
+cp .extras $HOME/.extras
+cd $HOME/.extras
+chmod a+x curltime
+chmod a+x fucktheprocessusingport
