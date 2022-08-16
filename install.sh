@@ -37,6 +37,9 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 echo "Setting Up Bun"
 curl https://bun.sh/install | bash
 
+echo "Setting Up NixOS"
+sh <(curl -L https://nixos.org/nix/install) --no-daemon
+
 echo "Setting Up Epik Commands!"
 cp .extras $HOME/.extras
 cd $HOME/.extras
